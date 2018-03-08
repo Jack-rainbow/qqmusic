@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-##已知BUG
+## 已知BUG
 	
 	1.歌手子页面 this.$route.path 不生效
 
