@@ -21,10 +21,10 @@ const debug = process.env.NODE_ENV !== 'production'
  
 //创建一个最大的仓库
 export default new Vuex.Store({
+  state,
 	/*作为参数传入*/
 	actions,
 	getters,
-	state,
 	mutations,
 	strict:debug,// 开启严格模式（线上环境不推荐使用,耗费内存）,
 	plugins: debug ? [createLogger()] : []
