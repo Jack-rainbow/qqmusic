@@ -13,6 +13,7 @@ import * as types from './mutation-typs'
 	 *  
 	 * */
 	[types.SET_SINGER](state,singerq){
+    //可根据传进来的参数，进行对后台的状态值内容的改变
 		state.singer=singerq
 	},
 	[types.SET_PLAYING_STATE](state,flag){
