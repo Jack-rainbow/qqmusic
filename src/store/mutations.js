@@ -3,8 +3,8 @@ import * as types from './mutation-typs'
 //切记在Vuex中store数据改变的唯一方法就是mutation！
 //因为matutaions是一个方法
  const matutaions={
-	/*第一个参数----获取当前的state
-	 *第二个参数--设置参数
+	/*第一个参数----获取当前的state文件里边的state
+	 *第二个参数--设置传进来的参数
 	 * */
 	
 	//ES6风格的计算属性命名功能来使用一个常量作为函数名
