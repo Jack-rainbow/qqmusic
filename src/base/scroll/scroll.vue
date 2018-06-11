@@ -76,6 +76,7 @@
       watch:{
         /*因为data数据发生变化了，需要重新计算scroll，所以就需要调用refresh()*/
         data(){
+        //经验证的一般为17ms,20ms完全可以.用户无知觉
           setTimeout(()=>{
             this.refresh()
           },20)
